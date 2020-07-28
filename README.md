@@ -2,12 +2,16 @@
 openjdk8 building on macos for study
 
 ## 环境准备；
-macOS Catalina 10.15.3
-xcode 11.5 (11E608c)
-brew install Ant 		//用于执行JAVA编译代码中的Ant脚本
-brew install llvm
-brew install freetype  
-XQuartz XQuartz 2.7.11（xorg-server 1.18.4）:XQuartz:https://www.xquartz.org/
+- macOS Catalina 10.15.3
+- xcode 11.5 (11E608c)
+- brew install Ant 		//用于执行JAVA编译代码中的Ant脚本
+- brew install llvm
+- brew install freetype  
+- [XQuartz](XQuartz:https://www.xquartz.org/) XQuartz 2.7.11（xorg-server 1.18.4）
+- [xcode-missing-libstdc-](https://github.com/imkiwa/xcode-missing-libstdc-)
+   这里需要说明的是，下载后执行install.sh命令
+   把include/c++文件夹复制到/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+   把lib下面的3个文件copy放到/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
 
 ## 开始编译
 ### 1、设置环境变量,我这里是zsh vim ~/.zshrc，修改之后source ~/.zshrc
