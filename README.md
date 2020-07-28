@@ -25,7 +25,7 @@ Base on OpenJDK8
 - brew install freetype  
 - [XQuartz](XQuartz:https://www.xquartz.org/) XQuartz 2.7.11（xorg-server 1.18.4）
 - [xcode-missing-libstdc-](https://github.com/imkiwa/xcode-missing-libstdc-)
-   这里需要说明的是，下载后执行install.sh命令
+   下载后执行install.sh命令
    - 把include/c++文件夹复制到/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
    - 把lib下面的3个文件copy放到/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
 
