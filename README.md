@@ -1,6 +1,7 @@
 # jdk8mhb
-building on macos for study
-基于openjdk8： 
+Building on macOS for Study
+
+Base on OpenJDK8
 ```
    hg clone http://hg.openjdk.java.net/jdk8/jdk8 jdk8mhb
    ./get_source.sh
@@ -145,4 +146,4 @@ OpenJDK Runtime Environment (build 1.8.0-internal-fastdebug-manheiba_2020_07_28_
 OpenJDK 64-Bit Server VM (build 25.0-b70-fastdebug, mixed mode)
 ```
 
-## 大功告成，祝成功
+## 祝成功
