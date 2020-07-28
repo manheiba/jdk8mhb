@@ -32,6 +32,7 @@ Base on OpenJDK8
 ## 开始编译
 ### 1、设置环境变量,我这里是zsh vim ~/.zshrc，修改之后source ~/.zshrc
 ```
+# 为了解决乱码的问题
 export LC_ALL=en_US.UTF-8
 # 设定语言选项，必须设置
 export LANG=C
@@ -91,7 +92,7 @@ bash ./configure --enable-debug --with-target-bits=64 --with-freetype-include=/u
 成功后会输出
 ```
 A new configuration has been successfully created in
-/Users/manheiba/openjdk/jdk8mhb/build/macosx-x86_64-normal-server-fastdebug
+/Users/[Useraname]/openjdk/jdk8mhb/build/macosx-x86_64-normal-server-fastdebug
 using configure arguments '--enable-debug --with-target-bits=64 --with-freetype-include=/usr/local/include/freetype2 --with-freetype-lib=/usr/local/lib --with-boot-jdk=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home CXX=clang++'.
 
 Configuration summary:
