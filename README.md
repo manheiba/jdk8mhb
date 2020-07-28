@@ -1,7 +1,7 @@
 # jdk8mhb
 openjdk8 building on macos for study
 
-## 环境准备；
+## 环境准备
 - macOS Catalina 10.15.3
 - xcode 11.5 (11E608c)
 - brew install Ant 		//用于执行JAVA编译代码中的Ant脚本
