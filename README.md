@@ -23,7 +23,7 @@ Base on OpenJDK8
 - brew install Ant 		//用于执行JAVA编译代码中的Ant脚本
 - brew install llvm
 - brew install freetype  
-- [XQuartz](XQuartz:https://www.xquartz.org/) XQuartz 2.7.11（xorg-server 1.18.4）
+- [XQuartz](https://www.xquartz.org/) XQuartz 2.7.11（xorg-server 1.18.4）
 - [xcode-missing-libstdc-](https://github.com/imkiwa/xcode-missing-libstdc-)
    下载后执行install.sh命令
    - 把include/c++文件夹复制到/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
