@@ -6,7 +6,7 @@ Base on OpenJDK8
    hg clone http://hg.openjdk.java.net/jdk8/jdk8 jdk8mhb
    ./get_source.sh
 ```
-为了完成编译，针对以下文件进行了修改
+为了编译，对以下文件进行了修改
 - common/autoconf/generated-configure.sh
 - hotspot/src/share/vm/code/relocInfo.hpp
 - hotspot/src/share/vm/opto/loopPredicate.cpp
@@ -147,4 +147,4 @@ OpenJDK Runtime Environment (build 1.8.0-internal-fastdebug-manheiba_2020_07_28_
 OpenJDK 64-Bit Server VM (build 25.0-b70-fastdebug, mixed mode)
 ```
 
-## 祝成功
+## 完成，大家动手试一试吧，祝成功
